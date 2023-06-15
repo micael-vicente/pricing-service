@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+pricing:
+  discountConfig:
+    type: COUNT_BASED
+    countBasedConfig:
+      minItems: 1
+      discountValue: 1
+      maxDiscount: 10
+      discountIncrement: 1
+    percentageConfig:
+      minItems: 1
+      percentage: 5

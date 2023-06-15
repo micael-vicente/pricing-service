@@ -1,0 +1,6 @@
+pricing:
+  discountConfig:
+    type: PERCENTAGE
+    percentageConfig:
+      minItems: 1
+      percentage: 5

@@ -1,0 +1,8 @@
+pricing:
+  discountConfig:
+    type: COUNT_BASED
+    countBasedConfig:
+      minItems: 1
+      discountValue: 1
+      maxDiscount: 10
+      discountIncrement: 1
